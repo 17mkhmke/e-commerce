@@ -1,0 +1,86 @@
+/* Universal STyling */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation Bar */
+.logo {
+    width: 7rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: gold;
+
+}
+.navbar-brand:hover {
+    color: black;
+}
+.nav-link{
+    margin-right:10px ;
+    margin-left: 10px;
+    color: gold;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid gold;
+}
+.btn0{
+    height:40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:black;
+    color:gold;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main {
+    background: url(e-comBackground.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+/* Product */
+.WhiskProd {
+    width: 12rem;
+    height: 8rem;
+}
+.BeerProd{
+    width: 12rem;
+    height: 8rem;
+}
+.VodpProd{
+    width: 12rem;
+    height: 8rem;
+}
+h1 {
+    font-weight: 700;
+    
+}
